@@ -1,15 +1,12 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to Mirage Github UI
-        </h1>
-      </main>
+    <div className="grid place-items-center min-h-screen">
+      <h1 className="text-lg font-extrabold">Welcome to Mirage Github UI</h1>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
     </div>
   )
 }
